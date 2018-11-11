@@ -4,6 +4,7 @@ import { OffreEmploitComponent } from './offre-emploit/offre-emploit.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { AcRecruteurComponent } from './ac-recruteur/ac-recruteur.component';
 import { AcCondidatsComponent } from './ac-condidats/ac-condidats.component';
+import { SingUpComponent } from './sing-up/sing-up.component';
 
 
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'acceuil' , component: AcceuilComponent},
   { path: 'ac-recruteur' , component: AcRecruteurComponent},
   { path: 'ac-condidats' , component: AcCondidatsComponent},
+  { path: 'sing-up' , component: SingUpComponent},
 
   { path: '' , redirectTo: 'acceuil' , pathMatch: 'full' },
   { path: '**' , redirectTo: 'acceuil' }
